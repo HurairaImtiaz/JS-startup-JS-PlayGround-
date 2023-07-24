@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS PlayGround</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
         <div class="box">
-            <header>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Welcome</a></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="startPlaying.html">Start Playing</a></li>
-               
-         </ul>
-            </nav>
-        </header>
+            <div class="topnav" id="myTopnav">
+                <a href="#" class="active" >JS PlayGround</a>
+                <a href="#" id="welcome" >Welcome</a>
+                <a href="index.html">Home</a>
+                <a href="startPlaying.html">Start Playing</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
 
         <h2>Clink on the buttons below to seee the magic Happens!</h2>
 <div class="button-container">
-    <button type="button"  id="welcome" class="charming-button" >Welcome Button 🤗</button>
+    <button type="button"  id="Welcome" class="charming-button" >Welcome Button 🤗</button>
     <button type="button" id="sum" class="charming-button">Sum Button ➕</button>
     <button type="button"  id="product"class="charming-button">Product Button ✖️</button>
     <button type="button"  id="modulus" class="charming-button">Modulus Button ➗ </button>

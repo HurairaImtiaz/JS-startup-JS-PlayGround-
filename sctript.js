@@ -1,3 +1,19 @@
+// nav 
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+// Welcome Tab
+let welcome = "Welcome on JS PlayGround"
+document.getElementById("Welcome").onclick=function(){
+    alert(welcome)
+}
+
 // button1 
 let n1 = "Welcome on JS PlayGround"
 document.getElementById("welcome").onclick=function(){
