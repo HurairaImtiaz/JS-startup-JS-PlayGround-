@@ -43,5 +43,33 @@ margin: 150px;
 }
 .navbar li :hover{
     box-shadow: 0 2px 5px rgba(249, 249, 249, 0.2);
+
     
 }
+/* Container for buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the charming buttons */
+  .charming-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* Text color */
+    background-color: #3f51b5; /* Button background color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: background-color 0.3s ease; /* Add a smooth transition for the background-color property */
+    margin: 8px;
+  }
+  
+  /* Button hover effect */
+  .charming-button:hover {
+    background-color: #303f9f; /* Change the background color on hover */
+  }
