@@ -3,7 +3,7 @@
 }
 .box{
 background-color: rgb(106, 94, 94) ;
-border: solid 6px rgb(241, 237, 0);
+border: solid 6px rgba(252, 240, 4, 0.92);
 width: 50%;
 height: 100%;
 margin: 250px;
