@@ -1,0 +1,47 @@
+.container{
+    background-color: aqua;
+}
+.box{
+background-color: rgb(106, 94, 94) ;
+border: solid 2px black;
+width: 50%;
+height: 100%;
+margin: 150px;
+
+
+}
+.box h1{
+    font-size: 20px;
+}
+
+.navbar{
+    background-color: rgba(7, 7, 7, 0.797);
+    border-radius: 14px;
+    position: sticky;
+    
+}
+.navbar li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    padding: 6px 20px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    color: #333; /* Text color */
+    transition: box-shadow 0.3s ease;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li :hover{
+    box-shadow: 0 2px 5px rgba(249, 249, 249, 0.2);
+    
+}
