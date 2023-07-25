@@ -1,0 +1,49 @@
+/* Reset default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .charming-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .charming-button:hover {
+    background-color: #3cb0fd;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .charming-button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  
