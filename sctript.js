@@ -21,11 +21,18 @@ document.getElementById("welcome").onclick=function(){
 }
 
 // button2 
-let btn2Num1 = 20;
-let btn2Num2 = 10;
-let sum = btn2Num1+btn2Num2;
+let btn2Num1;
+let btn2Num2; 
+
 document.getElementById("sum").onclick=function(){
-    alert("Sum to Two numbers : 20 and 10 is =" + sum)
+   btn2Num1 = prompt("Enter 1st number : " );
+   btn2Num2 = prompt("Enter 2nd number : " );
+   
+}
+let result;
+result = btn2Num1+btn2Num2;
+document.getElementById("sumCheck").onclick=function(){
+    alert("Sum to Two  given numbers is : " + result)
 }
 // button3 
 let btn3Num1 = 20;
