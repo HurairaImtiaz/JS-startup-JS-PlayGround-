@@ -32,22 +32,35 @@ document.getElementById("sum").onclick=function(){
 
 
 document.getElementById("sumCheck").onclick=function(){
-  var result = parseInt (btn2Num1) + parseInt (btn2Num2);
-    alert("Sum to Two  given numbers is : "+ result)
+  var resultSum = parseInt (btn2Num1) + parseInt (btn2Num2);
+    alert("Sum to Two  given numbers is : "+ resultSum)
 }
+
 // button3 
-let btn3Num1 ;
-let btn3Num2 ;
-let product = btn3Num1*btn3Num2;
+var btn3Num1 ;
+
 document.getElementById("product").onclick=function(){
-    alert("Sum to Two numbers : 20 and 10 is =" + product)
+  btn3Num1 = prompt("Enter 1st number : " );
+  btn3Num2 = prompt("Enter 2nd number : " );
+  
 }
+document.getElementById("productCheck").onclick=function(){
+  var resultProduct = parseInt(btn3Num1) * parseInt(btn3Num2);
+  alert("Product to Two  given numbers is : " + resultProduct)
+}
+
 // button4 
-let btn4Num1 = 20;
-let btn4Num2 = 10;
-let modulus = btn4Num1%btn4Num2;
+var btn4Num1 ;
+var btn4Num2 ;
+
 document.getElementById("modulus").onclick=function(){
-    alert("Modulus to Two numbers : 20 and 10 is =" + modulus)
+  btn4Num1 = prompt("Enter 1st number : " );
+  btn4Num2 = prompt("Enter 2nd number : " );
+  
+}
+document.getElementById("modulusCheck").onclick=function(){
+  var resultModulus = parseInt(btn4Num1) % parseInt(btn4Num2) ;
+    alert("Modulus to Two numbers : " + resultModulus)
 }
  // button5
  let btn5= "Hey ! 💕 Just wanted to send you some love and appreciation for being an awesome user! 😊🌟 Keep shining bright! 🌈✨"
