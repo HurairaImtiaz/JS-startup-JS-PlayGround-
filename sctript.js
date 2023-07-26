@@ -21,22 +21,23 @@ document.getElementById("welcome").onclick=function(){
 }
 
 // button2 
-let btn2Num1;
-let btn2Num2; 
+var btn2Num1;
+var btn2Num2; 
 
 document.getElementById("sum").onclick=function(){
    btn2Num1 = prompt("Enter 1st number : " );
    btn2Num2 = prompt("Enter 2nd number : " );
    
 }
-let result;
-result = btn2Num1+btn2Num2;
+
+
 document.getElementById("sumCheck").onclick=function(){
-    alert("Sum to Two  given numbers is : " + result)
+  var result = parseInt (btn2Num1) + parseInt (btn2Num2);
+    alert("Sum to Two  given numbers is : "+ result)
 }
 // button3 
-let btn3Num1 = 20;
-let btn3Num2 = 10;
+let btn3Num1 ;
+let btn3Num2 ;
 let product = btn3Num1*btn3Num2;
 document.getElementById("product").onclick=function(){
     alert("Sum to Two numbers : 20 and 10 is =" + product)
