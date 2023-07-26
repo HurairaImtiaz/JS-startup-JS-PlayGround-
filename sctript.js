@@ -9,7 +9,7 @@ function myFunction() {
   }
 
 // Welcome Tab
-let welcome = "Welcome on JS PlayGround"
+let welcome = "Welcome on JS PlayGround 🎉 🎊 🎈 😄 🥳"
 document.getElementById("Welcome").onclick=function(){
     alert(welcome)
 }
